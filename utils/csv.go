@@ -24,7 +24,7 @@ var (
 	InputMaxLossRate = maxLossRate
 	Output           = defaultOutput
 	PrintNum         = 10
-	coloLimit        = 6 //每个 Colo 的前 coloLimit 个 IP
+	coloLimit        = 3 //每个 Colo 的前 coloLimit 个 IP
 )
 
 // 是否打印测试结果
