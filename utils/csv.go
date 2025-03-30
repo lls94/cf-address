@@ -24,7 +24,7 @@ var (
 	InputMaxLossRate = maxLossRate
 	Output           = defaultOutput
 	PrintNum         = 10
-	coloLimit        = 1 //每个 Colo 的前 coloLimit 个 IP
+	coloLimit        = 6 //每个 Colo 的前 coloLimit 个 IP
 )
 
 // 是否打印测试结果
@@ -278,3 +278,7 @@ func (s DownloadSpeedSet) Print() {
 		fmt.Printf("\n完整测速结果已写入 %v 文件，可使用记事本/表格软件查看。\n", Output)
 	}
 }
+
+
+
+// https://ip.164746.xyz/ipTop10.html?id=🔝&sep=comma
